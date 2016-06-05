@@ -1,0 +1,15 @@
+body{
+ font-family: 'Merriweather', serif;
+ background-color: #f1f1f1;
+}
+.center-container{
+  margin-top:1%;
+  padding-top:1%;
+  background-color:white;
+  height: 1000px;
+  color:#878787;
+}
+#c_temp{font-size:3em;color:#222;}
+.w_unit{margin-top:-3.5em;margin-left:10.5em;font-size:1.2em}
+.w_unit a{text-decoration:none;}
+.w_unit #cel_l{color:#222;}
