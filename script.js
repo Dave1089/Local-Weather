@@ -1,4 +1,4 @@
-unit='Metric';
+unit="Metric";
 gotCity = function(){
 $.getJSON('http://ip-api.com/json/?callback=', function(data){
   cityName = data.city;       $.getJSON("http://api.openweathermap.org/data/2.5/weather?q="+cityName+"&APPID=afbf2e31f72ceb510601b270d40a7a70&units="+ unit , function(json) {
